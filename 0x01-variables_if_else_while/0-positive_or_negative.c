@@ -1,12 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Entry point
- *
  * Description: Print n; 0, +ve or -ve
- *
  * Return: Always 0 (Success)
 */
 int main(void)
