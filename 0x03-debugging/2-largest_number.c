@@ -8,9 +8,9 @@
  * Return: largest number
  */
 
-double largest_number(a, b, c)
+int largest_number(a, b, c)
 {
-	double largest;
+	int largest;
 
 	if (a > b && b > c)
 	{
