@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_most_numbers - Print numbers between 0 to 9 incl.
+ * print_most_numbers - Print numbers between 0 to 9 excl. 2 & 4
  *
  * Return: Void.
  */
