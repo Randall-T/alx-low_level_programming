@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _memset - ironnou
+ * _memset - fills the 1st n bytes of the mem area pointed to by s
+ *		with the constant byte b
  * @s: pointer to char params
  * @b: data to change
  * @n: index
