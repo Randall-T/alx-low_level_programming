@@ -1,12 +1,9 @@
 #include "variadic_functions.h"
-
 /**
  * print_all - prints char, integer, float and string
  * @format: list of types of arguments passed to the function
- *
  * Return: Void
  */
-
 void print_all(const char * const format, ...)
 {
 	va_list valist;
@@ -41,14 +38,11 @@ void print_all(const char * const format, ...)
 			start = 1;
 			p = va_arg(valist, char*);
 			if (p)
-			{
-				printf("%s", p);
-				break;
-			}
+			{printf("%s", p);
+				break; }
 			printf("%p", p);
 			break;
-		}
-		k++;
+		} k++;
 	}
 	printf("\n");
 	va_end(valist);
