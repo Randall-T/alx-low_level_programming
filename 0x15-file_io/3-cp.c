@@ -1,7 +1,5 @@
 #include "main.h"
 
-char *create_buffer(char *file);
-void close_file(int fd);
 
 /**
  * create_buffer - allocates 1024 bytes for a buffer
@@ -69,7 +67,7 @@ int main(int argc, char *argv[])
 	dest = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	do {
-		if (src == -1 || dest_wr == -1)
+		if (src == -1 || src_rd == -1)
 		{
 			dprintf(STDERR_FILENO,
 					"Error: Can't read from file %s\n", argv[1]);
